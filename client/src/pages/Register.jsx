@@ -1,9 +1,17 @@
 const Register = () => {
-  return (
-    <div>
-      <h1>This is register page</h1>
-    </div>
-  )
+  return <>
+    <section>
+      <main>
+        <div className="section-registration">
+          <div className="container grid grid-two-cols">
+            <div className="registration-image">
+              
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    </>
 }
 
 export default Register

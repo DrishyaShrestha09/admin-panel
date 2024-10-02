@@ -170,3 +170,26 @@
   }
   
   /***** End analytics Section *****/
+
+  /* about section */
+
+  .about-title{
+  margin-right: 80px;
+  margin: -713px;
+  margin-top: -625px;
+
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  }
+
+  .btn-croup {
+    margin-top: 476px;
+    display: flex;
+    gap: 10px;
+    margin-left: -109%;
+  }
+  
+.texts{
+  margin-top: -100px;
+}

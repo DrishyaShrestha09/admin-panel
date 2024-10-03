@@ -1,6 +1,24 @@
-
+import { useState } from "react"
 
 const Contact = () => {
+
+const[contact, setContact] = useState({
+  username: "",
+  email: "",
+  message: "",
+})
+
+// handle input 
+const handleInput = (e) => {
+  const name = e.target.name;
+  const value = e.target.value;
+
+  setContact({
+    ...Contact,
+    [name]: value,
+  })
+};
+
   return (
     <>
     <section className="section-contact">
@@ -23,6 +41,8 @@ const Contact = () => {
               name="username" 
               id="username" 
               autoComplete="off"
+              value={contact.username}
+              onChange={handleInput}
               required 
 
               />
@@ -33,6 +53,8 @@ const Contact = () => {
               name="email" 
               id="email" 
               autoComplete="off"
+              value={contact.email}
+              onChange={handleInput}
               required 
               
               />
@@ -40,7 +62,16 @@ const Contact = () => {
 
             <div>
               <label htmlFor="message">message</label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea 
+              name="message" 
+              id="message" 
+              autoComplete="off"
+              value={contact.message}
+              onChange={handleInput}
+              required 
+              cols="30" 
+              rows="10"
+              ></textarea>
             </div>
 
             <div>

@@ -2,9 +2,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-   <footer>
-    <p>&copy; 2024 <strong>Ridan Shrestha</strong>. All rights reserved.</p>
-   </footer>
+    <footer>
+      <p>&copy; 2024 <strong>Ridan Shrestha</strong>. All rights reserved.</p>
+    </footer>
   )
 }
 

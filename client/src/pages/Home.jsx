@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <main>
-        
+
         <section className="section-hero">
           <div className="container grid grid-two-cols">
             <div className="hero-content">
@@ -36,8 +36,8 @@ const Home = () => {
         </section>
       </main>
       {/* 2nd section  */}
-      <Analytics/>
-     
+      <Analytics />
+
       {/* 3rd section  */}
       <section className="section-hero">
         <div className="container grid grid-two-cols">
@@ -55,7 +55,7 @@ const Home = () => {
             <p>We are here to help you</p>
             <h1>Get Started Today</h1>
             <p>
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat blanditiis tenetur quia. Est excepturi quasi dolore ipsa ullam eveniet cumque nam! Magni quos mollitia accusamus, quaerat debitis sapiente? Eius, nihil voluptas odit beatae molestias nam voluptate.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat blanditiis tenetur quia. Est excepturi quasi dolore ipsa ullam eveniet cumque nam! Magni quos mollitia accusamus, quaerat debitis sapiente? Eius, nihil voluptas odit beatae molestias nam voluptate.
             </p>
             <div className="btn btn-group">
               <a href="/contact">

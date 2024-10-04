@@ -12,10 +12,10 @@ export const About = () => {
 
               <h1>Why Choose Us? </h1>
               <p>
-                Expertise: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ducimus voluptas asperiores sapiente, tempore quasi dolorem debitis 
+                Expertise: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ducimus voluptas asperiores sapiente, tempore quasi dolorem debitis
               </p>
               <p>
-                Customization: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sed harum voluptate ducimus pariatur dolor temporibus iure, 
+                Customization: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sed harum voluptate ducimus pariatur dolor temporibus iure,
               </p>
               <p>
                 Customer-Centric Approach: Lorem ipsum dolor, sit amet consectetur adipisicing elit.

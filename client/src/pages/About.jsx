@@ -1,45 +1,53 @@
-const About = () => {
+import { NavLink } from "react-router-dom";
+import Analytics from "../components/Analytics";
+
+export const About = () => {
   return (
     <>
-      <section className="section-hero">
-        <div className="container grid grid-two-cols">
-          <p>Welcome to Sahayatri</p>
-          <h1 className="about-title">Why Choose Us?</h1>
-          <div className="texts">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti illum vero corporis impedit molestiae
-            <br />
-            <br />
-            recusandae qui blanditiis, ea, doloribus eligendi. Adipisci facilis sed dolore, dicta voluptas unde maxime tempora.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quam pariatur neque maxime magnam ut, ex voluptas nisi
-            <br />
-            <br />
-            sequi ea possimus incidunt saepe amet nihil dolore cum et vel modi Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br />
-            <br />
-            Sequi consequuntur delectus, quod aperiam ad tenetur ut, quo veniam, iure ea distinctio atque! Deserunt
-          </p>
-          </div>
-          <div className="btn btn-croup">
-            <a href="/contact">
-              <button className="btn">connect now</button>
-            </a>
-            <a href="/services">
-              <button className="btn secondary-btn">learn more</button>
-            </a>
-          </div>
-          <div className="hero-image">
-              <img src="/images/home.png" alt="working together"
+      <main>
+        <section className="section-hero">
+          <div className="container grid grid-two-cols">
+            <div className="hero-content">
+              {/* <p>We care to cure your Health</p> */}
+
+              <h1>Why Choose Us? </h1>
+              <p>
+                Expertise: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ducimus voluptas asperiores sapiente, tempore quasi dolorem debitis 
+              </p>
+              <p>
+                Customization: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sed harum voluptate ducimus pariatur dolor temporibus iure, 
+              </p>
+              <p>
+                Customer-Centric Approach: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <p>
+                Affordability: Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius veritatis .
+              </p>
+              <p>
+                Reliability: Lorem ipsum dolor sit amet consectetur adipisicing elit.ducimus available 24/7.
+              </p>
+              <div className="btn btn-group">
+                <NavLink to="/contact">
+                  <button className="btn"> Connect Now</button>
+                </NavLink>
+                <button className="btn secondary-btn">learn more</button>
+              </div>
+            </div>
+            <div className="hero-image">
+              <img
+                src="/images/about.png"
+                alt="coding buddies "
                 width="400"
                 height="500"
               />
             </div>
-        </div>
-      </section>
+          </div>
+        </section>
+      </main>
+
+      <Analytics />
     </>
   );
-}
+};
 
 export default About;

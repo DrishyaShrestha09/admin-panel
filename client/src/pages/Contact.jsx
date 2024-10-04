@@ -77,7 +77,7 @@ const handleSubmit = (e) => {
               onChange={handleInput}
               required 
               cols="30" 
-              rows="10"
+              rows="6"
               ></textarea>
             </div>
 

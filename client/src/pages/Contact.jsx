@@ -14,9 +14,16 @@ const handleInput = (e) => {
   const value = e.target.value;
 
   setContact({
-    ...Contact,
+    ...contact,
     [name]: value,
   })
+};
+
+// handeling submit
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  console.log(contact);
 };
 
   return (
@@ -34,7 +41,7 @@ const handleInput = (e) => {
 
         {/* actual contact content */}
         <section className="section-form">
-          <form >
+          <form onSubmit={handleSubmit}>
             <div>
               <label htmlFor="username">username</label>
               <input type="text" 
